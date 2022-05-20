@@ -14,7 +14,7 @@ function updateBody(){
 
 inputE1.addEventListener("input",()=>{
     updateBody();
-    updateLocalStorage
+    updateLocalStorage();
 })
 
 function updateLocalStorage(){
